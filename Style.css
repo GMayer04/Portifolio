@@ -1,0 +1,60 @@
+@font-face {
+    font-family: pixel;
+    src: url(/upheavtt.ttf) format('opentype');
+}
+@font-face {
+    font-family:linear;
+    src: url(dealerplate\ california.otf) format('opentype');
+}
+body{
+    background-color:#333333;
+    color: white;  
+}
+nav ul{
+    text-align: right;
+    background-color:#404040;
+    padding:0;
+    margin:0;
+}  
+nav li{
+    display:inline-block;
+}   
+nav a{
+    color: aliceblue;
+    display: block;
+    font-family: pixel;
+    list-style: none;
+    padding: 25px 20px;
+    text-transform: uppercase;
+    font-size: 20px;   
+}
+header a{
+    text-decoration: none;
+}
+nav a:hover{
+   background-color:#333333;
+   transform: scale(1.1);
+   color: #ffff00;
+}
+main{
+    margin-left: 2%;
+}
+h1{
+    font-family: linear;
+    letter-spacing: 3px;
+    font-size: 50px;
+    padding: 0;
+    color: #bfbfbf;  
+}
+h4{
+    padding: 0;
+    font-family:linear;
+    letter-spacing: 3px
+}
+h2{font-family: linear;
+    letter-spacing: 3px;
+    padding: 0;}
+.text{
+    margin-top:10%;
+    margin-left:6%;
+}
