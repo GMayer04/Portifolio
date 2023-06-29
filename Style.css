@@ -13,6 +13,9 @@
     text-decoration: none;
     list-style: none;
 }
+html {
+    scroll-behavior: smooth;
+  }
 body{
     font-size: 100%;
     background: url(bg.jpg) no-repeat center center;
@@ -28,6 +31,7 @@ a:hover{
     color: #8a2be2;
 }
 nav{
+    
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -35,6 +39,10 @@ nav{
     font-size: 20px;
     background-color: #23232e;
     height: 8vh;
+}
+.homebar{
+    position: fixed;
+    width: 100%;
 }
 .nav-list{
     display: flex;
@@ -87,6 +95,7 @@ body{
 .principal{
     display: flex;
     justify-content: space-around;
+    height: 500px;
 }
 .principal h1{
     color: #8a2be2;
@@ -94,6 +103,8 @@ body{
     font-family: pixel;
     letter-spacing: 3px;
     font-weight: bold;
+    border-right: 2px solid #8a2be2;
+    animation: cursor 1s infinite normal;
     
 }
 .principal h2{
@@ -107,6 +118,11 @@ body{
     border-radius: 50%;
     height: 370px;
     border: 3px solid #8a2be2;
+    
+}
+@keyframes cursor {
+    from{border-right-color: #8a2be2 ;}
+    to{border-right-color: transparent;}
 }
 .text{
     display: flex;
@@ -120,6 +136,7 @@ body{
     font-size: 20px;
     font-family: Linear;
     margin-top: 10px;
+    text-align:justify
 }
 .sub h1{
     color: #8a2be2;
@@ -132,5 +149,6 @@ body{
 }
 .sub{
     margin-top: 30vh;
-   
+    height: 500px;
+    
 }
