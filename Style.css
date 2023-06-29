@@ -17,7 +17,7 @@ body{
     font-size: 100%;
     background: url(bg.jpg) no-repeat center center;
     background-size: cover;
-    height: 92vh;
+    
 }
 a{
     color: #fff;
@@ -57,8 +57,10 @@ nav{
 body{
    overflow-x: hidden;
     }
-    .principal img{
-        display: none;
+    .principal{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
     }
 .nav-list {
     position: absolute;
@@ -91,7 +93,8 @@ body{
     font-size:60px;
     font-family: pixel;
     letter-spacing: 3px;
-    font-weight: bold
+    font-weight: bold;
+    
 }
 .principal h2{
     color: black;
@@ -110,5 +113,24 @@ body{
     flex-direction: column;
     justify-content: center;
     gap: 20px;
-
+}
+.sub p { 
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-family: Linear;
+    margin-top: 10px;
+}
+.sub h1{
+    color: #8a2be2;
+    font-size:40px;
+    font-family: pixel;
+    letter-spacing: 3px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+.sub{
+    margin-top: 30vh;
+   
 }
