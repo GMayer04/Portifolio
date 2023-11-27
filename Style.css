@@ -86,11 +86,6 @@ body{
     justify-content: space-around;
     transform: translateX(100%);
 }
-.nav-list li{
-    margin-left: 0;
-    opacity: 0;
-}
-
 .mobile-menu{
     display: block;
  }
@@ -168,6 +163,9 @@ body{
     height: 500px;
     
 }
+.cards{
+    margin-top:40vh ;
+}
 .conteudo h1{
     color: #8a2be2;
     font-size:40px;
@@ -188,9 +186,9 @@ body{
     margin-top: 3vh;
     display: flex;
     justify-content: center;
-    gap: 20px;
-   
+    gap: 20px; 
 }
+
 .link{
     display: flex;
     justify-content: center;
@@ -202,7 +200,14 @@ body{
     margin-top: 50vh;
     
 }
-.link img:hover{
-  transform: scale(1.15);
-
+.img-position img:hover {
+   transform: scale(1.01);
+}
+.nav-list p {
+    color: #23232e;
+    font-family:Linear;
+    text-align: center;
+}
+.nav-list li:hover{
+    transform: scale(1.01);
 }
