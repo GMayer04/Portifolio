@@ -75,6 +75,11 @@ body{
         justify-content: center;
         flex-direction: column;
     }
+    .foto{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+    }
 .nav-list {
     position: absolute;
     top: 8vh;
@@ -159,12 +164,12 @@ body{
     justify-content: center;
 }
 .sub{
-    margin-top: 50vh;
+    margin-top:15vh;
     height: 500px;
     
 }
 .cards{
-    margin-top:40vh ;
+    margin-top:15vh ;
 }
 .conteudo h1{
     color: #22525a;
@@ -188,19 +193,21 @@ body{
     justify-content: center;
     gap: 20px; 
 }
-
 .link{
     display: flex;
-    justify-content: center;
+    justify-content:center;
+}
+.base{
+margin-top: 80vh;
 }
 .link img{
     max-width: 50px;
     margin: 15px;
-    margin-top: 50vh;
-    
+    margin-top: 100%;  
 }
 .img-position img:hover {
    transform: scale(1.01);
+   
 }
 .nav-list p {
     color: #23232e;
