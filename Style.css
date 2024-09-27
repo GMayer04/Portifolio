@@ -13,9 +13,9 @@
     text-decoration: none;
     list-style: none;
 }
-html {
+html{
     scroll-behavior: smooth;
-  }
+}
 body{
     font-size: 100%;
     background: url(bg1.jpg) no-repeat center center;
@@ -43,6 +43,7 @@ nav{
 .homebar{
     position: fixed;
     width: 100%;
+    z-index: 1; 
 }
 .nav-list{
     display: flex;
@@ -54,6 +55,7 @@ nav{
 .logindex img{ 
     max-width: 50px;
     max-height: 50px;
+    align-items: left;
 }
 .principal{
     display: flex;
@@ -141,7 +143,7 @@ nav{
     border: 3px solid #22525a;
 }
 .projetos img:hover {
-    transform: scale(1.01);
+    transform: scale(0.99);
  }
 .link{
     display: flex;
