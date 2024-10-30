@@ -4,89 +4,118 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://unpkg.com/scrollreveal"></script>
     <title>Guilherme Mayer</title>
     <link rel="stylesheet" href="/Style.css">
 </head>
 
 <body>
     <div class="homebar">
-      <header>
-        <nav>
-          <div class="mobile-menu">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
-          </div>
-          <div class=" logindex">
-            <a href="#tela1"><img src="logo.png"></a>
-          </div>
-            <ul class="nav-list">
-              <li><a href="#tela2">Sobre Mim</a></li>
-              <li><a href="#tela3"> Projetos</a></li>
-              <li><a href="#tela4">Contato</a></li>
-            </ul>
-        </nav>
-      </header>
+        <header>
+            <nav class="navbar">
+                <div class="logo"><a href="#tela1"><img src="icons/logo.png"></a></div>
+                <div class="menu-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="nav-lista">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#tela2">Sobre</a></li>
+                    <li><a href="#tela3">Serviços</a></li>
+                    <li><a href="#tela4">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
     </div>
-
-    <main> 
-      <section class="tela" id=tela1 >
-       <script src="mobile-bar.js"></script>
-        <div class="principal" id="main">
-          <div class="text">
-              <h2>Olá, prazer meu nome é</h2> 
-              <h1>Guilherme Mayer</h1>
-              <h2>Desenvolvedor Front-End..</h2>
-          </div>
-          <div class="foto">
-          <img src="foto minha.jpg" >
-        </div>
-          </div>
+    <main>
+        <section class="tela" id="tela1">
+            <div class="principal" id="main">
+                <div class="text">
+                    <h2>Olá, prazer meu nome é</h2>
+                    <h1>Guilherme Mayer</h1>
+                    <h2>Estudante De TI</h2>
+                </div>
+                <div class="foto">
+                    <img src="foto minha.jpg">
+                </div>
+            </div>
         </section>
         <section class="tela" id="tela2">
-           <div class="sub">
-             <h1>Sobre Mim</h1>
-             <p>Olá, Meu nome é Guilherme, tenho 19 anos e desenvolvi uma paixão por tecnologia desde os 10 anos de idade, inicialmente despertada pelo contato com os games. Atualmente, sou formado como Técnico em Desenvolvimento de Sistemas pela ETEC e estou cursando o ensino superior em Sistemas de Informação pela UNIP.</p>
-             <p>Meu interesse pelo desenvolvimento de sistemas começou durante o curso técnico, onde tive a oportunidade de explorar diversas áreas, especialmente o front-end e o desenvolvimento de aplicativos web. Possuo experiência significativa com HTML, CSS e JavaScript, além de ter tido alguns contatos iniciais com React Native. Embora meu conhecimento em React Native ainda seja básico, estou profundamente interessado em continuar meus estudos e aprimorar minhas habilidades em outras tecnologias e bibliotecas.</p>
-             <p>Durante minha formação, participei de diversos projetos práticos que me permitiram aplicar os conhecimentos teóricos adquiridos e desenvolver habilidades em resolução de problemas, trabalho em equipe e gestão de projetos. Minha abordagem proativa e curiosidade constante têm sido fundamentais para minha evolução contínua no campo da tecnologia.</p>
-             <p>Além disso, estou sempre em busca de novas oportunidades para aprender e crescer, seja por meio de cursos, workshops ou projetos pessoais. Acredito que a combinação de uma base técnica sólida e um desejo incessante de inovação é crucial para alcançar o sucesso na área de desenvolvimento de sistemas.</p>
-          </div>
+            <div class="sub">
+                <h1>Um Pouco Sobre Mim</h1>
+                <p>Olá, meu nome é Guilherme e sou um profissional apaixonado por tecnologia. Desde os 10 anos, meu interesse foi despertado pelo universo dos games, o que me levou a seguir uma carreira voltada para o desenvolvimento de sistemas. Sou formado como Técnico em Desenvolvimento de Sistemas pela ETEC e atualmente estou ampliando meus conhecimentos no curso de ensino superior em Sistemas de Informação na UNIP.</p>
+                <p>Atualmente, estou estagiando, onde tive a oportunidade de trabalhar com a ferramenta de ERP da SAP. Essa experiência tem sido enriquecedora, permitindo-me compreender melhor a integração de sistemas e a gestão de processos empresariais. Além disso, adquiri habilidades em suporte técnico, o que tem sido fundamental para o meu desenvolvimento profissional e para a solução de problemas em tempo real.</p>
+                <p>Minha maior afinidade dentro da área de desenvolvimento é com front-end e ferramentas web. Embora ainda esteja no início da minha carreira, tenho um forte interesse em me aprofundar em diversas tecnologias e ferramentas de desenvolvimento. Tenho experiência prática em HTML, CSS e JavaScript e estou comprometido em expandir minhas habilidades para atender às demandas do mercado.</p>
+                <p>Minha formação incluiu a participação em projetos práticos que consolidaram minha base teórica e me ajudaram a desenvolver competências essenciais como resolução de problemas, trabalho em equipe e gestão de projetos. Essa vivência prática foi fundamental para minha evolução, reforçando minha abordagem proativa e minha curiosidade em aprender continuamente.</p>
+                <p>Estou sempre em busca de novas oportunidades que me permitam expandir meu conhecimento e contribuir para o sucesso. Acredito que a combinação de uma sólida formação técnica e um desejo incessante por inovação é crucial para alcançar resultados excepcionais na área de TI. Estou animado para explorar novas possibilidades e contribuir para o crescimento da tecnologia e da equipe que integro.</p>
+            </div>
         </section>
         <section class="tela" id="tela3">
             <div class="cards">
-            <div class="conteudo" id="tela3">
-              <h1>Projetos</h1>
-            
-              <div class="projetos">
-              <li><a href=""><img src="Embreve.jpg"></a></li>
-              <li><a href=""><img src="Embreve.jpg"></a></li>
-              <li><a href=""><img src="Embreve.jpg"></a></li>
+                <div class="conteudo" id="tela3">
+                    <h1>Serviços</h1>
+                    <div class="projetos">
+                        <li><a href=""><img src="Proj/Server.jpg"></a></li>
+                        <li><a href=""><img src="Proj/Sup.jpg"></a></li>
+                        <li><a href=""><img src="Proj/Rela.jpg"></a></li>
+                        
+                    </div>
+                    <div class="projetos">
+                        <li><a href=""><img src="Proj/Desk.jpg"></a></li>
+                        <li><a href=""><img src="Proj/Hardware.jpg"></a></li>
+                        <li><a href=""><img src="Proj/Mobile.jpg"></a></li>
+                    </div>
+                </div>
             </div>
-            <div class="projetos">
-              <li><a href=""><img src="Embreve.jpg"></a></li>
-              <li><a href=""><img src="Embreve.jpg"></a></li>
-              <li><a href=""><img src="Embreve.jpg"></a></li>
-            </div>
-            </div>
-          </div>
         </section>
-        <section class="tela">
-          <div class="base" id="tela4">
-          <div class="link">
-            <ul class="nav-list">
-              <li><a href="https://github.com/GMayer04" target="_blank"><img src="icons8-github.svg"></a><p>GitHub</p></li>
-              <li><a href="https://www.instagram.com/guimayer_/"target="_blank"><img src="icons8-instagram.svg"><p>Instagram</p></li>
-              <li><a href="https://www.linkedin.com/in/guilherme-g-mayer/"target="_blank"><img src="icons8-linkedin.svg"><p>Linkedin</p></a></li>
-              </ul>
-          </div>
-          <div class="mail">
-             <ul class="nav-list">
-                <li><a href="mailto:guimayerdev@gmail.com" target="_blank"><p>guimayerdev@gmail.com</p></a></li>
-             </ul>
-           </div>
-          </div>
-         </section>
-    </main>
+      </section>
+      <section class="tela"  id="tela4">
+        
+      </div>
+        <div class="baseboard">
+            <div class="link"> 
+                <ul class="nav-list">
+                    <li>
+                        <a href="https://github.com/GMayer04" target="_blank">
+                            <img src="icons/icons8-github.svg" alt="GitHub">
+                        </a>
+                        <p>GitHub</p>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/guimayer_/" target="_blank">
+                            <img src="icons/icons8-instagram.svg" alt="Instagram">
+                        </a>
+                        <p>Instagram</p>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/guilherme-g-mayer/" target="_blank">
+                            <img src="icons/icons8-linkedin.svg" alt="LinkedIn">
+                        </a>
+                        <p>Linkedin</p>
+                    </li>
+                    <li>
+                        <a href="mailto:guimayerdev@gmail.com" target="_blank">
+                            <img src="icons/mail.svg" alt="E-Mail">
+                        </a>
+                        <p>E-Mail</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
 </body>
 </html>
+<!--
+<div class="curriculo">
+    <script src="script.js"></script>
+    <button type="button" id="mybutton">Meu Curriculo</button>
+    <div id="overlay">
+        <div id="overlayContent">
+            <button id="closeBtn">Fechar</button>
+            <img id="image" src="" alt="Imagem" width="100%" style="max-height:62rem;"/>
+        </div>
+    </div>
+</div>
+-->
