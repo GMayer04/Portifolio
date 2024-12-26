@@ -35,6 +35,7 @@ a{
 nav a:hover {
     opacity: 0.7;
     color: #bdcfc4;
+    transition: transform 0.2s ease;
 }
 
 nav {
@@ -156,6 +157,7 @@ nav {
     justify-content: center;
     gap: 12vh;  
     flex-wrap: wrap;
+    
 }
 
 .projetos img {
@@ -164,51 +166,30 @@ nav {
     height: 400px;
     border-radius: 40px;
     border: 3px solid #22525a;
+    cursor: pointer;
 }
 
 .projetos img:hover {
-    transform: scale(0.95);
+    transform: scale(1.05);
+    border-color: #54f383;
+    transition: transform 0.2s ease;
+
 }
 
 .nav-list li img:hover {
     transform: scale(0.95);
+    transition: transform 0.2s ease;
 }
 
 .nav-list li a:hover {
     color: #22525a;
+    transition: transform 0.2s ease;
 }  
 
 .tela {
     padding: 2rem;
     height: 85vh;
 }
-
-.curriculo {
-    display: flex;
-    justify-content: center;
-    transform: translateY(60vh);
-    margin-bottom: 2rem; 
-}
-
-button {
-    border: 0;
-    line-height: 2.5rem;
-    padding: 0 20px;
-    font-size: 1.5rem;
-    text-align: center;
-    color: #bec0b4;
-    border-radius: 50px;
-    background-color: #22525a;
-    font-family: pixel;
-    cursor: pointer;
-    transition: background-color 0.3s, color 0.3s;
-}
-
-button:hover {
-    background-color: #2d6a75;
-    color: #bfc0ba;
-}
-
 .baseboard {
     display: flex;
     justify-content: center;
@@ -315,8 +296,7 @@ button:hover {
         height: auto;
     }
     .baseboard {
-        transform: translateY(50vh);
-        
+        transform: translateY(50vh); 
     }
     nav {
         display: flex;
@@ -328,27 +308,4 @@ button:hover {
         height: 10vh;
         width: 100%;
     }
-    #overlayContent {
-    transform: translateY(25vh);
-    }
 }
-#overlay {
-    display: none;
-    position:static;
-    width: 50Vh;
-    height: 50vh;
-    z-index: 2;
-}
-#overlayContent {
-    position: absolute; /* Tornar o conteúdo absoluto */
-    top: 1%; /* Centraliza verticalmente */
-    left: 50%; /* Centraliza horizontalmente */
-    transform: translate(-50%, -50%);
-    background-color: white; /* Fundo do conteúdo */
-    padding: 20px; /* Espaçamento interno */
-    border-radius: 30px; /* Bordas arredondadas */
-    box-shadow: 1px 1px 15rem 15rem  rgba(0, 0, 0, 0.8); 
-    z-index: 2;
-    
-}
-
